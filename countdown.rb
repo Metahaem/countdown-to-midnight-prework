@@ -4,7 +4,7 @@ def countdown
   i = 10
   while i > 0 
   return "#{i} SECOND(S)!"
-  i -=
+  i -= 1
 end 
 return "HAPPY NEW YEAR!"
 end
@@ -15,7 +15,7 @@ def countdown_with_sleep
   while i > 0 
   return "#{i} SECOND(S)!"
   sleep(1)
-  i -=
+  i -= 1
 end 
 return "HAPPY NEW YEAR!"
 end
