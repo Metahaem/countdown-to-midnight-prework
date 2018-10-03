@@ -7,8 +7,6 @@ end
 puts "HAPPY NEW YEAR!"
 end
 
-countdown
-
 def countdown_with_sleep
   i = 10
   while i > 0 
@@ -19,4 +17,3 @@ end
 puts "HAPPY NEW YEAR!"
 end
 
-countdown_with_sleep
